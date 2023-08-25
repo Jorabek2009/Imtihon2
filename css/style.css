@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Literata:ital,opsz,wght@0,7..72,500;1,7..72,300&family=Poppins:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  font-family: Poppins;
+}
+
+header nav {
+  display: flex;
+}
+header nav img {
+  width: Fixed 91px;
+  height: Hug 26px;
+  margin-top: 32px;
+  margin-left: 88px;
+  gap: 12px;
+}
+header nav div {
+  display: flex;
+  width: Hug 347px;
+  height: Hug 24px;
+  margin-top: 42px;
+  margin-left: 770px;
+  gap: 40px;
+}
+header nav .menu {
+  display: none;
+}
+
+section {
+  margin-top: 130px;
+}
+section h1 {
+  font-family: Poppins;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 82px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+section button {
+  width: 251px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 67px;
+  color: white;
+  font-size: 22px;
+  background-color: rgb(40, 94, 103);
+  margin-left: 550px;
+  margin-top: 40px;
+}
+section .imgs {
+  margin-top: 80px;
+}
+section .imgs img:first-child {
+  margin-left: 50px;
+}
+section .imgs img {
+  width: 626px;
+  height: 390px;
+  border-radius: 16px;
+  margin-left: 20px;
+}
+
+main {
+  width: 1270px;
+  height: 446px;
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  margin-left: 50px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+main .left {
+  width: 589px;
+  height: 342px;
+  margin-left: 100px;
+  margin-top: 110px;
+}
+main .left h1 {
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+main .left aside {
+  display: flex;
+}
+main .left aside div {
+  width: 260px;
+  height: 187.54px;
+  padding-right: 10px;
+}
+main .right {
+  margin-left: 170px;
+  margin-top: 145px;
+}
+
+@media (max-width: 1024px) {
+  header nav div {
+    margin-left: 400px;
+  }
+  section p {
+    width: 700px;
+    margin-left: 150px;
+  }
+  section button {
+    margin-left: 380px;
+  }
+  section .imgs img {
+    width: 450px;
+    height: 330px;
+  }
+  section .imgs img:first-child {
+    margin-left: 40px;
+  }
+  main {
+    width: 900px;
+  }
+  main .right {
+    display: none;
+  }
+  main .left {
+    margin-left: 180px;
+    margin-top: 80px;
+  }
+  main .left aside div:last-child {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 430px) {
+  header nav img {
+    width: 100px;
+  }
+  header nav div {
+    display: none;
+  }
+  header nav .menu {
+    display: block;
+    margin-left: 350px;
+  }
+  section h1 {
+    width: 550px;
+    margin-left: 50px;
+  }
+  section p {
+    width: 550px;
+    margin-left: 40px;
+  }
+  section button {
+    margin-left: 200px;
+  }
+  section .imgs {
+    display: block;
+  }
+  section .imgs img:first-child {
+    margin-left: 80px;
+  }
+  section .imgs img {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  main {
+    width: 400px;
+    height: 650px;
+    margin-left: 100px;
+  }
+  main .left {
+    margin-left: 56px;
+  }
+  main .left h1 {
+    word-spacing: 5px;
+    font-size: 40px;
+  }
+  main .left aside {
+    display: block;
+  }
+  main .left aside div:last-child {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
