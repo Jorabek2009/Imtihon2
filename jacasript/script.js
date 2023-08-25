@@ -62,8 +62,10 @@
 // 4- masala
 
 // function add(n){
+//     if(n>999){
 //     let onlik = parseInt((n / 10) % 10);
-//     console.log(onlik); 
+//   console.log(onlik); 
+// }
 // }
 // add(12345);
 
